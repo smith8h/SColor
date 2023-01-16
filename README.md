@@ -14,7 +14,7 @@ A helpful library that deals with colors in android!, convert color to its oppos
 > Step 2. Add the dependency
 ```gradle
     dependencies {
-	implementation 'com.github.smith8h:SColor:Tag'
+	implementation 'com.github.smith8h:SColor:1.0.0'
     }
 ```
 
