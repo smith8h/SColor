@@ -1,8 +1,25 @@
 # SColor Tool
 A helpful library that deals with colors in android!, convert color to its opposite, lighter and darker color!.
 
+# Installation
+> Step 1. Add the JitPack repository to your build file
+```gradle
+    allprojects {
+	repositories {
+	    ...
+	    maven { url 'https://jitpack.io' }
+        }
+    }
+```
+> Step 2. Add the dependency
+```gradle
+    dependencies {
+	implementation 'com.github.smith8h:SColor:Tag'
+    }
+```
+
 # Documentation
-*`lighterColor`*, *`darkerColor`* request a factor of how much you need to get your color darker/lighter, and it's a float value between 0 to 1.
+**`lighterColor`**, **`darkerColor`** request a factor of how much you need to get your color darker/lighter, and it's a float value between 0 to 1.
 ```java
     // get lighter color from existing one
     int color = SColor.lighterColor(0xFFDE34E5, .7f);
