@@ -16,7 +16,7 @@ A helpful library that deals with colors in android!, convert color to its oppos
     int color = SColor.oppositeColor(0xFFDE34E5);
     int color = SColor.oppositeColor("#ffde34e5");
     
-    // get lighter color from existing one
+    // convert rgb (red green blue) color to hsv
     int color = SColor.RGBToHSV(0xFFDE34E5);
     int color = SColor.RGBToHSV("#ffde34e5");
 ```
